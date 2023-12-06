@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Green Pages</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divice-width;initial-scale=1.0">
+    <meta name="author" content="Green Pages">
+    <meta name="description"
+        content="coloque uma introdução aqui do site essa parte vai aparecer em baixo da barra de pesquisa">
+    <meta name="keywords" content="aqui vc coloqua palavras chave que direcione o usuario para nosso site">
+    <link rel="stylesheet" href="{% static 'css/categoria.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Montserrat&family=Playfair+Display:wght@400;500&family=Poppins:wght@600;700&display=swap');
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Menu -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+
+            <nav class="menu-desk">
+                <ul>
+                    <li class="selected"><a href="categorias.html">Categorias</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--livros-->
+    <section class="fundo2">
+        <div class="fundo3"><br>
+            <h1>Ler mudou, muda e continuará<br>mudando o mundo</h1>
+            <p>Escolha o gênero que você deseja!</p>
+            <img src="img/icon2.png">
+            <div class="dentro_fundo3">
+                <img src="img/icon3.png">
+            </div>
+        </div>
+
+        <div class="coluna">
+            <img class="imagem" src="img/Romance.png" alt="Imagem 1">
+            <h1>Romance</h1>
+            <a href="romance.html"><button class="botao"> Botão 1</button></a>
+        </div>
+
+
+        <div class="coluna">
+            <img class="imagem" src="img/Ficção Científica.png" alt="Imagem 2">
+            <h1>Ficção Científica</h1>
+            <a href="ficçao_cientifica.html"><button class="botao">Botão 2</button></a>
+        </div>
+
+        <div class="coluna">
+            <img class="imagem" src="img/Ação e Aventura.png" alt="Imagem 3">
+            <h1>Ação e Aventura</h1>
+            <a href="açao_aventura.html"><button class="botao">Botão 3</button></a>
+        </div>
+
+        <div class="coluna">
+            <img class="imagem" src="img/Terror.png" alt="Imagem 4">
+            <h1>Terror</h1>
+            <a href="terror.html"><button class="botao">Botão 4</button></a>
+        </div>
+
+
+        <!--rodapé-->
+    </section>
+    <footer class="footer2">
+        <div class="container">
+            <p>
+                GreenPages  ©2023 - Todos os direitos reservados.
+            </p>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
